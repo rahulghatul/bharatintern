@@ -1,0 +1,169 @@
+* Temperature Converter CSS
+
+body {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(215, 215, 215, 0.367);
+    font-family: 'Agdasima', sans-serif;
+}
+
+body:hover {
+    background-color: rgb(43, 69, 69);
+    transition: 0.4s;
+}
+
+.container {
+    padding: 20px;
+    width: 30%;
+    margin: 10% 35%;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 60px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px rgba(224, 224, 224, 0.582);
+}
+
+h1 {
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+h1::before {
+    top: 5.8rem;
+    left: -2rem;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    height: 2.5rem;
+    margin: -65px 83px;
+    width: 9.5rem;
+    border-top: 0.4rem solid rgb(255, 0, 0);
+    border-left: 0.4rem solid rgb(255, 0, 0);
+}
+
+h1::after {
+    top: 2.5rem;
+    right: 25rem;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    height: 2.5rem;
+    width: 9.5rem;
+    margin: 0px -350px;
+    border-bottom: 0.4rem solid rgb(255, 0, 0);
+    border-right: 0.4rem solid red;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#input {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+}
+
+#data {
+    font-size: 15px;
+    padding: 5px 60px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 23%;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgba(85, 158, 248, 0.796);
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+} */
+/* Temperature.css */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
